@@ -15,4 +15,7 @@
 13. 如果有交了作業發現錯誤要修正，不需要重新 pull request，只需要 commit -am 後再 push 一次，github 上會新增一個 commit，同時可檢查 Files changed 是否正確
 14. 複製 PR 連結，到學習系統的課程總覽，按下繳交作業，貼上連結，送出後完成！
 
-
+作業改完並且 merge 後：  
+1. 輸入`git checkout master` 回到 master 分支
+2. 輸入`git pull origin master` pull 最新版本
+3. 刪除已經 merge 的 branch
